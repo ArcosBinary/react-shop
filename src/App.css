@@ -2,27 +2,28 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.articleBox {
+  float: left;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.articleList {
+  width: 50%;
 }
 
-.App-title {
-  font-size: 1.5em;
+.shoppingCard {
+  width: 40%;
 }
 
-.App-intro {
-  font-size: large;
+.wishList {
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+/* its more like a list container */
+.listElement {
+  float: left;
+}
+
+/* used to make a single list entry beauty and fancy :-) */
+.listItem {
+  background-color: whitesmoke;
 }
